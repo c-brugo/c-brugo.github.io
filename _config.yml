@@ -212,7 +212,7 @@ jekyll-archives:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
- scholar:
+scholar:
 
   last_name: Einstein
   first_name: [Albert, A.]
