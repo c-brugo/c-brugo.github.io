@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+heading: Projects
+intro: Things I've built, at work and on my own.
+---
+{% if site.data.projects.size > 0 %}
+<ul class="cards">
+  {% for p in site.data.projects %}
+  <li class="card">
+    <h3>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</h3>
+    {% if p.description %}<p class="muted">{{ p.description }}</p>{% endif %}
+    {% if p.tags %}<ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Projects are on their way. In the meantime, have a look at my <a href="https://github.com/{{ site.github }}">GitHub</a>.</p>
+{% endif %}

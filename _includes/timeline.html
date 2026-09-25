@@ -1,0 +1,23 @@
+{% comment %} Renders a list of organisations, each with one or more roles. Pass items=site.data.xxx {% endcomment %}
+<ol class="timeline">
+  {% for entry in include.items %}
+  <li class="entry">
+    <div class="entry-org">
+      <h3>{{ entry.org }}</h3>
+      {% if entry.location %}<p class="muted">{{ entry.location }}</p>{% endif %}
+    </div>
+    <div class="entry-roles">
+      {% for role in entry.roles %}
+      <div class="role">
+        <p class="role-head"><span class="role-title">{{ role.title }}</span> <span class="dates">{{ role.dates }}</span></p>
+        {% if role.points %}
+        <ul>
+          {% for point in role.points %}<li>{{ point }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

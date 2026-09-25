@@ -1,0 +1,5 @@
+# Add a project as a new item. Only "name" is required.
+# - name: Project name
+#   description: One or two sentences on what it does.
+#   tags: [Python, LLM]
+#   url: https://github.com/c-brugo/...

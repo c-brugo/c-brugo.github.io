@@ -1,0 +1,8 @@
+- group: AI and machine learning
+  items: [AI agents, LLMs, LLMOps, Generative AI, Machine learning, Deep learning]
+- group: Data engineering
+  items: [Apache Beam, AWS Step Functions, GCP Dataflow, Splunk, Palantir Foundry]
+- group: Programming
+  items: [Python, Pandas, Java, Angular]
+- group: Languages
+  items: [Italian (native), English (professional), Spanish (elementary)]

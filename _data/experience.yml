@@ -1,0 +1,33 @@
+# Work experience, newest first. Each organisation can hold several roles.
+- org: Moviri
+  location: Milan, Italy
+  roles:
+    - title: AI Consultant
+      dates: Apr 2025 – Present
+      points:
+        - Designing and delivering AI solutions for clients, with a focus on AI agents and LLMOps.
+    - title: Analyst
+      dates: Sep 2022 – Apr 2025
+      points:
+        - Built 10+ Splunk pipelines based on summary indexes and designed 5+ dashboards for data monitoring and visualisation.
+        - Developed a correlation engine that aggregates data through association rules (Python, Pandas, mlxtend).
+        - Benchmarked deep learning models from AWS, Azure, GCP and Hugging Face for speaker recognition and diarisation.
+        - Ran 20+ streaming and batch ingestion pipelines on AWS Step Functions and GCP Dataflow, and rewrote Apache Beam pipelines in Python to run 3x faster.
+
+- org: Engineering Ingegneria Informatica
+  location: Turin, Italy
+  roles:
+    - title: Software Developer Intern
+      dates: Nov 2018 – Jun 2019
+      points:
+        - Joined the Data Warehouse and Business Intelligence team for the healthcare sector, following the full software lifecycle from requirements to testing and release.
+        - Built an Angular front end with a Java back end for data entry and for running data warehouse procedures, making the whole team more productive.
+
+- org: Premier Autoparts
+  location: Cork, Ireland
+  roles:
+    - title: Web Developer Intern
+      dates: Aug 2016 – Oct 2016
+      points:
+        - Built the Irish website of MudBuster Bike Cleaner, which stayed online for five years.
+        - Kept product catalogues up to date across the company's websites.
