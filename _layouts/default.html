@@ -13,32 +13,36 @@
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="monogram" aria-hidden="true">CB</span>
+        <span>
+          <span class="brand-name">{{ site.title }}</span>
+          <span class="brand-role">AI Consultant · Turin</span>
+        </span>
+      </a>
       <nav aria-label="Main">
         {% for item in site.nav %}
         <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
         {% endfor %}
       </nav>
-    </div>
-  </header>
+      <div class="sidebar-foot">
+        {% include links.html %}
+      </div>
+    </aside>
 
-  <main id="main" class="wrap">
-    {% if page.heading %}
-    <header class="page-head">
-      <h1>{{ page.heading }}</h1>
-      {% if page.intro %}<p class="lead">{{ page.intro }}</p>{% endif %}
-    </header>
-    {% endif %}
-    {{ content }}
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>© {{ 'now' | date: '%Y' }} {{ site.author }}</p>
-      {% include links.html %}
-    </div>
-  </footer>
+    <main id="main">
+      {% if page.heading %}
+      <header class="page-head">
+        <p class="eyebrow">{{ page.eyebrow | default: page.title }}</p>
+        <h1>{{ page.heading }}</h1>
+        {% if page.intro %}<p class="lead">{{ page.intro }}</p>{% endif %}
+      </header>
+      {% endif %}
+      {{ content }}
+      <footer class="site-footer">© {{ 'now' | date: '%Y' }} {{ site.author }}</footer>
+    </main>
+  </div>
 </body>
 </html>
