@@ -5,7 +5,8 @@
     - title: AI Consultant
       dates: Apr 2025 – Present
       points:
-        - Designing and delivering AI solutions for clients, with a focus on AI agents and LLMOps.
+        - Managing an LLM model-serving infrastructure on Kubernetes, running on an HPC cluster.
+        - Deploying and operating large language models with KServe and vLLM.
     - title: Analyst
       dates: Sep 2022 – Apr 2025
       points:

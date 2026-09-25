@@ -4,21 +4,21 @@
   --text: #1f2328;
   --muted: #5d636b;
   --line: #e4e0da;
-  --accent: #2c5f5d;
-  --accent-soft: #e5efee;
+  --accent: #5b3fa0;
+  --accent-soft: #eee9f8;
   --serif: "Newsreader", Georgia, serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #141719;
-    --surface: #1b1f22;
+    --bg: #151419;
+    --surface: #1c1b22;
     --text: #e8e6e3;
     --muted: #a1a7ad;
-    --line: #2c3236;
-    --accent: #7fc1bc;
-    --accent-soft: #1f3331;
+    --line: #2e2c37;
+    --accent: #b9a3f2;
+    --accent-soft: #2b2540;
   }
 }
 
