@@ -6,8 +6,8 @@ heading: Beyond work
 intro: Communities, competitions and volunteering I've been part of outside my job.
 ---
 {% for s in site.data.activities %}
-<section{% if forloop.first %} style="margin-top:0"{% endif %}>
+<section class="block">
   <h2>{{ s.section }}</h2>
-  {% include timeline.html items=s.items %}
+  {% include timeline.html items=s.items grid=true %}
 </section>
 {% endfor %}
