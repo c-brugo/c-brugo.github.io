@@ -1,0 +1,19 @@
+---
+layout: default
+title: Certifications
+permalink: /certifications/
+heading: Certifications
+intro: Courses and certifications I've completed.
+---
+{% if site.data.certifications.size > 0 %}
+<ul class="cards">
+  {% for c in site.data.certifications %}
+  <li class="card">
+    <h3>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</h3>
+    {% if c.issuer or c.date %}<p class="muted">{{ c.issuer }}{% if c.issuer and c.date %} · {% endif %}{{ c.date }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Certifications will appear here soon.</p>
+{% endif %}

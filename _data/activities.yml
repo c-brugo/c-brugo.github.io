@@ -1,0 +1,60 @@
+# Activities outside work, grouped in sections. Each item has the same shape as experience.yml.
+- section: Community and mentoring
+  items:
+    - org: LeadTheFuture
+      location: Non-profit mentorship for STEM students
+      roles:
+        - title: Tech Talks Team Lead
+          dates: Dec 2022 – Present
+          points:
+            - Moderator of Inspiration Valley, a webinar series run with Silicon Valley Study Tour, Innovit, the Italian Trade Agency and Silicon Valley Fellowship.
+            - Hosted 30+ webinars with professionals from Meta, Google, Cisco and other tech companies around the world.
+            - Coordinate with the LeadTheFuture and SVST social teams on the guest schedule and event promotion.
+        - title: Ambassador at Politecnico di Torino
+          dates: 2020
+        - title: Mentee
+          dates: Sep 2018 – Sep 2019
+          points:
+            - Selected among Italian STEM students (acceptance rate below 20%) for a year of one-to-one mentorship from professionals in innovation hubs such as Silicon Valley and CERN.
+
+    - org: Silicon Valley Study Tour
+      location: Italy and San Francisco Bay Area
+      roles:
+        - title: Hackathon Mentor
+          dates: Apr 2023 – Mar 2025
+          points:
+            - Mentor at the last two SVST startup hackathons in Verbania. In 2025 I supported 80+ participants, split in 17 teams, in developing their startup ideas.
+        - title: Ambassador at Politecnico di Torino
+          dates: 2020
+        - title: Participant
+          dates: Aug 2019
+          points:
+            - A week in Silicon Valley visiting companies, startups and universities, including Google, Stanford, UC Berkeley, Waymo, Dropbox, LinkedIn and Cisco, and meeting Italian professionals who built their careers there.
+
+- section: Competitions
+  items:
+    - org: Challenge@PoliTo by Firms
+      location: Politecnico di Torino
+      roles:
+        - title: Finalist, "AI 4 Fashion Trends"
+          dates: Sep 2020 – Jan 2021
+          points:
+            - Designed a solution that anticipates fashion trends by collecting social network data and applying clustering and time series forecasting.
+
+- section: Volunteering
+  items:
+    - org: Italian Tech Week
+      location: Turin, Italy
+      roles:
+        - title: Volunteer
+          dates: Sep 2021
+          points:
+            - Welcomed and assisted participants at the entrances of the event.
+    - org: Italian Red Cross
+      roles:
+        - title: Volunteer
+          dates: Apr 2014 – Sep 2021
+    - org: Oratorio di Pecetto Torinese
+      roles:
+        - title: Children's entertainer
+          dates: Jun 2013 – Jan 2022

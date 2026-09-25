@@ -1,0 +1,35 @@
+# Newest first. Add a certification as a new item; only "name" is required.
+# - name: Certification name
+#   issuer: Who issued it
+#   date: Mon YYYY
+#   url: https://link-to-verify
+- name: Hugging Face Agents Course
+  issuer: Hugging Face
+  date: Jun 2025
+- name: AI Agents Fundamentals
+  issuer: Hugging Face
+  date: May 2025
+- name: Machine Learning Masterclass
+  issuer: Data Masters
+  date: Mar 2025
+- name: Generative AI with Large Language Models
+  issuer: DeepLearning.AI and AWS
+  date: Apr 2024
+- name: Splunk Core Certified Power User
+  issuer: Splunk
+  date: Sep 2023
+- name: Foundry Certification for Data Analysts
+  issuer: Palantir Technologies
+  date: Jun 2023
+- name: Simulation and Modeling of Natural Processes
+  issuer: Coursera
+  date: Mar 2022
+- name: Climate Geospatial Analysis on Python with Xarray
+  issuer: Coursera
+  date: Nov 2021
+- name: Analysing COVID-19 Geospatial Data with Python
+  issuer: Coursera
+  date: Nov 2021
+- name: Machine Learning (Stanford)
+  issuer: Coursera
+  date: Aug 2020

@@ -1,0 +1,22 @@
+title: Carlo Brugo
+description: AI Consultant at Moviri. Computer engineer from Turin working on data, machine learning and AI agents.
+url: https://c-brugo.github.io
+lang: en
+author: Carlo Brugo
+email: carlobrugo97@gmail.com
+linkedin: carlobrugo
+github: c-brugo
+
+nav:
+  - { title: About, url: / }
+  - { title: Experience, url: /experience/ }
+  - { title: Activities, url: /activities/ }
+  - { title: Certifications, url: /certifications/ }
+  - { title: Projects, url: /projects/ }
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
